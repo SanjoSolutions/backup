@@ -2,4 +2,4 @@
 
 source ./config.sh
 
-sudo gsutil -m rsync -r "$REPOSITORY_PATH" "$BUCKET_URL"
+sudo borgbackup with-lock "$REPOSITORY_PATH" gsutil -m rsync -r "$REPOSITORY_PATH" "$BUCKET_URL"
