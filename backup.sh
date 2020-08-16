@@ -27,5 +27,4 @@ sudo BORG_PASSPHRASE="$BORG_PASSPHRASE" borg create \
   /var/mail \
   /var/metrics \
   /var/opt \
-  /var/snap \
-  /var/spool
+  /var/snap
