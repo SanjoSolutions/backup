@@ -10,5 +10,5 @@ This work is devoted to God.
 4. `./export_key.sh`
 5. Print or save `~/borg_key.txt` to a save location.
 6. Configure cronjob:
-  1. `sudo crontab -e`
-  2. Add line `*/15 * * * * /home/<NAME_OF_USER>/backup/cronjob.sh >> /var/log/backup/cronjob.log 2>&1`. This runs the backup task every 15 minutes.
+   1. `sudo crontab -e`
+   2. Add line `*/15 * * * * /home/<NAME_OF_USER>/backup/cronjob.sh >> /var/log/backup/cronjob.log 2>&1`. This runs the backup task every 15 minutes.
