@@ -1,0 +1,5 @@
+/mnt/c/hiberfil.sys
+/mnt/c/pagefile.sys
+/mnt/c/swapfile.sys
+/mnt/c/Users/*/AppData/Temp
+
