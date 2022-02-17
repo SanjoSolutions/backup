@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 REPOSITORY_PATH=''
 BUCKET_URL=''
